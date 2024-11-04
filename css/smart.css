@@ -1,0 +1,357 @@
+@charset "utf-8";
+
+@media screen and (max-width:500px){
+	#table{
+		display: block;
+	}
+		#table thead{
+			display: none;
+		}
+		#table tbody{
+			display: block;
+		}
+			#table tbody tr{
+				display: block;
+				margin-bottom: 1.5em;
+			}
+			#table tbody th,
+			#table tbody td{
+				display: list-item;
+				border: none;
+			}
+			#table tbody th{
+				margin-bottom: 5px;
+				list-style-type: none;
+				color: #fff;
+				background: #000;
+			}
+			#table tbody td{
+				margin-left: 20px;
+				padding: 0;
+			}
+			#table tbody td:nth-of-type(1):before { content: "[品詞]"; }
+			#table tbody td:nth-of-type(2):before { content: "[意味]"; }
+			#table tbody td:nth-of-type(3):before { content: "[用例]"; }
+}
+
+	.sp {
+		display: block;
+	}
+	  #wrapper .root .main .pcnone { display:block;
+}
+ .aisatu {
+	
+	padding: 10px;
+	width: 100%;
+}
+.pc {
+	display: none;
+}
+
+body img {
+	height: auto !important;
+	max-width: 100%;
+	width:auto;
+}
+
+.header .head_box {
+	padding: 5px;
+	width: auto;
+	position: relative;
+}
+
+.glo_navi {
+	display: none;
+}
+
+.header .head_box .logo {
+	width: 60%;
+}
+
+.header .head_box .logo img {
+	width: 100%;
+	float: none;
+}
+
+.header h1 {
+	width: 50%;
+	font-size: 9px;
+	text-align: left;
+	line-height: 1.5;	
+}
+
+.header p.img_r {
+	width: 48%;
+}
+
+.header p.img_r img {
+	width: 100%;
+}
+
+.menu {
+	width: 12%;
+	display: block;
+	position: absolute;
+	top: 10%;
+	right: 5%;
+}
+
+.menu img {
+	width: 100%;
+}
+
+.wideslider {
+	padding-bottom: 40px;
+}
+
+.pagination {
+	z-index: 100;
+}
+
+.main_top2 img {
+	margin: 0 1% 0 0;
+	width: 32%;
+}
+.main_top img {
+margin-top:2px;
+	width: 100%;
+}
+.main_top img:nth-child(3n) {
+	margin: 0;
+}
+
+.main .main_l {
+	margin: 0;
+	float: none;
+	width: auto;
+}
+
+.main .main_l img {
+	width: 100%;
+}
+
+.main .main_r {
+	margin: 0;
+	float: none;
+	width: auto;
+}
+
+#wrapper {
+	width: auto;
+}
+
+#wrapper .main {
+	width: auto;
+}
+	
+#footer .foot_box {
+	padding: 10px;
+	width: auto;
+}
+
+.w-381,
+.w-600 {
+	width: 100%;
+}
+
+.sideMenu2,
+.sideMenu1 {
+	margin-top: 10px;
+}
+
+#wrapper .main .main_l .sideMenu2 h4,
+#wrapper .main .main_l .sideMenu1 h4 {
+	padding: 5px 0 0 10px;
+	float: none;
+	color: #fff;
+	font-size: 13px;
+	background-color: #22923B;
+}
+
+#wrapper .main .main_l .sideMenu2 h4 span,
+#wrapper .main .main_l .sideMenu1 h4 span {
+	color: #fff;
+}
+
+#wrapper .main .main_l .sideMenu2 ul,
+#wrapper .main .main_l .sideMenu1 ul {
+	width: 100%;
+	float: none;
+	box-sizing: border-box;
+}
+
+#wrapper .main .main_l .sideMenu2 li,
+#wrapper .main .main_l .sideMenu1 li {
+	padding: 0;
+	font-size: 13px;
+}
+
+#wrapper .main .main_r .news h4,
+#wrapper .main .main_r .news h3 {
+	padding: 5px 10px 0;
+	float: none;
+	background-color: #22923B;
+}
+
+#wrapper .main .main_r .news h4 a,
+#wrapper .main .main_r .news h3 a {
+	text-decoration: none;
+}
+
+#wrapper .main .main_r .news h4 a span,
+#wrapper .main .main_r .news h3 a span,
+.top__sns h4 span{
+	color: #fff;
+}
+
+.main_r .news .fb_list,
+.main_r .news .blog_list,
+.main_r .news .news_main {
+	margin: 0;
+	float: none;
+	width: 100% !important;
+	box-sizing: border-box;
+}
+
+.main_r .news .fb_list {
+	height: 400px;
+}
+
+#footer .foot_box .list {
+	width: 50%;
+}
+
+#footer .foot_box .list .sub {
+	margin-left: 15px;
+}
+
+#footer {
+	background: #1E863B url(http://www.kashiwaya-tokyo.co.jp/img/top_06.jpg) no-repeat center bottom;
+	background-size: 100% auto;
+}
+
+.header {
+	position: relative;
+	background-position: left bottom;
+}
+
+.menuUl {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	z-index: 200;
+	text-align: left;
+}
+
+.menuUl li a {
+	padding: 10px 15px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+	background-color: #1E863B;
+}
+
+.menuUl li:first-child a {
+	border: none;
+}
+
+.side li iframe {
+	width: 100% !important;
+}
+	
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+ 
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+footer .telButton {
+	border: 2px solid #efefef;
+	height: 44px;
+	background: url(http://kashiwaya-tokyo.co.jp/images/foot-tel.png) repeat-x;
+	margin: 10px;
+}
+
+footer .telButton a {
+	width: 100%;
+	display: block;
+	height: 44px;
+	text-indent: -9999px;
+	background: url(http://kashiwaya-tokyo.co.jp/images/foot-tel.png) center no-repeat;
+}
+.main_r .price_list {
+	margin-left: 2px;
+	background-image: url(http://kashiwaya-tokyo.co.jp/img/price_list_bg.jpg);
+}
+.main_r .aisatu {
+	border-right-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #239B53;
+	border-bottom-color: #239B53;
+	border-left-color: #239B53;
+	padding: 10px;
+	width:100%;
+}
+.mar_le-25 {
+	margin-left: 0px;
+}
+.main .main_r .company {
+	width:100%;
+	border: 1px solid #CCCCCC;
+}
+.toPageTop img{
+width:83px;
+height:19px;
+}
+.mar_le-5 {
+	margin-left: 0px;
+}
+.topMenu li{
+width:48%;
+}
+.topMenu p img { margin-top:10px;
+}
+.news_main .infoList dt {
+	font-size: 11px;
+	float:left;
+	clear:left;
+	width:20%;
+}
+	
+.news_main .infoList dd {
+	margin-left:3px;
+	font-size: 11px;
+	float:left;
+	width:75%;
+}
+.news .infoList dt {
+	font-size: 11px;
+	float:left;
+	clear:left;
+	width:20%;
+}
+	
+.news .infoList dd {
+	margin-left:3px;
+	font-size: 11px;
+	float:left;
+	width:75%;
+}
